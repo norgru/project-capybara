@@ -1,10 +1,25 @@
 body{
     background-color: midnightblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-aside{
+#sidebar{
     font: normal ;
-    font-size: 15px;
+    font-size: 1rem;
     float: left;
+    background-color: rgb(6, 6, 43);
     color: skyblue;
+    padding: 2rem;
+}
+
+.pastWorkDesc{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-left: 1rem;
+}
+
+.pastWorkBlock{
+    color: honeydew;
+    float: left;
+    box-sizing: border-box;
 }
